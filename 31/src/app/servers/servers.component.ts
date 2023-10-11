@@ -27,7 +27,7 @@ onCreateServer(){
   this.serverCreated='Server was created'
   
 }
-onUpdateServer(event:any){
+onUpdateServer(event:Event){
 this.serverName=(<HTMLInputElement>event.target).value
 
 }
